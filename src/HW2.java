@@ -68,8 +68,8 @@ public class HW2 {
         System.out.println(checkBalance(new int[]{0, 2, 5, 10, 17}));
 
         System.out.println("");
-        moveValues(new int[]{1, 2, 3, 4, 5, 6, 7, 8}, -1);
-        moveValues(new int[]{1, 2, 3, 4, 5, 6, 7, 8}, 1);
+        moveValues(new int[]{1, 2, 3, 4, 5, 6, 7, 8}, -9);
+        moveValues(new int[]{1, 2, 3, 4, 5, 6, 7, 8}, 9);
 
     }
 
