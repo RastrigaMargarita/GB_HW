@@ -39,7 +39,6 @@ public class Employee {
             String surname = surnames[random.nextInt(5)];
             String name = names[random.nextInt(5)];
             String position = positions[random.nextInt(5)];
-            ;
             String email = surname + name.charAt(0) + "@ourcompany.com";
             String phone = String.format("+7(495)%d-%02d-%02d", random.nextInt(900)+100, random.nextInt(100), random.nextInt(100));
             int salary = random.nextInt(200) + 50;
@@ -56,5 +55,53 @@ public class Employee {
 
     }
 
+    //В данном задаче геттеры-сеттеры не нужны, но допустим мы когда-то в будущем будем их использовать.
+    public String getName() {
+        return name;
+    }
+
+    public String getPosition() {
+        return position;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public int getSalary() {
+        return salary;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setPosition(String position) {
+        this.position = position;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
+    public void setSalary(int salary) {
+        this.salary = salary;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
 }
 
